@@ -1,0 +1,61 @@
+/* Centralized Design System using CSS Custom Properties */
+:root {
+    /* Font System (SF Pro inspired) */
+    --font-family-system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    --font-title-1: 700 2.125rem/1.2 var(--font-family-system); /* 34px */
+    --font-title-2: 600 1.375rem/1.3 var(--font-family-system); /* 22px */
+    --font-body: 400 1.0625rem/1.6 var(--font-family-system);    /* 17px */
+    --font-caption: 500 0.875rem/1.4 var(--font-family-system);  /* 14px */
+    --font-code: "SF Mono", "Fira Code", "Consolas", monospace;
+
+    /* Animation */
+    --duration-apple: 350ms;
+    --timing-apple: cubic-bezier(0.4, 0.0, 0.2, 1);
+
+    /* Spacing & Sizing */
+    --spacing-xs: 4px;
+    --spacing-s: 8px;
+    --spacing-m: 16px;
+    --spacing-l: 24px;
+    --radius-s: 8px;
+    --radius-m: 12px;
+    --radius-l: 20px;
+
+    --sidebar-width: 280px;
+}
+
+/* Light Theme (Default) */
+:root, [data-theme='light'] {
+    --color-bg: hsla(220, 25%, 97%, 1);
+    --color-bg-secondary: hsla(220, 20%, 100%, 1);
+    --color-sidebar-bg: hsla(220, 20%, 94%, 1);
+    --color-text-primary: hsla(210, 10%, 20%, 1);
+    --color-text-secondary: hsla(210, 10%, 45%, 1);
+    --color-accent: hsla(214, 84%, 56%, 1);
+    --color-bubble-user-bg: var(--color-accent);
+    --color-bubble-user-text: hsla(0, 0%, 100%, 1);
+    --color-bubble-ai-bg: hsla(220, 15%, 88%, 1);
+    --color-bubble-ai-text: var(--color-text-primary);
+    --color-border: hsla(220, 15%, 85%, 1);
+    --color-input-bg: hsla(220, 15%, 92%, 1);
+    --shadow-soft: 0 4px 12px hsla(210, 20%, 20%, 0.08);
+    --hljs-bg: #f3f3f3;
+}
+
+/* Dark Theme */
+[data-theme='dark'] {
+    --color-bg: hsla(220, 15%, 12%, 1);
+    --color-bg-secondary: hsla(220, 15%, 18%, 1);
+    --color-sidebar-bg: hsla(220, 15%, 15%, 1);
+    --color-text-primary: hsla(220, 20%, 95%, 1);
+    --color-text-secondary: hsla(210, 10%, 65%, 1);
+    --color-accent: hsla(214, 90%, 66%, 1);
+    --color-bubble-user-bg: var(--color-accent);
+    --color-bubble-user-text: hsla(210, 20%, 10%, 1);
+    --color-bubble-ai-bg: hsla(220, 15%, 25%, 1);
+    --color-bubble-ai-text: var(--color-text-primary);
+    --color-border: hsla(220, 15%, 30%, 1);
+    --color-input-bg: hsla(220, 15%, 22%, 1);
+    --shadow-soft: 0 4px 12px hsla(0, 0%, 0%, 0.2);
+    --hljs-bg: #2d2d2d;
+}
