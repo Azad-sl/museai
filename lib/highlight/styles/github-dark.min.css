@@ -1,0 +1,6 @@
+/*!
+  Theme: GitHub Dark
+  Author: Platform.sh <@platformsh>
+  Created: 2021-03-24
+  Description: A dark theme for GitHub code blocks.
+*/.hljs{color:#c9d1d9;background:#0d1117}.hljs-doctag,.hljs-keyword,.hljs-meta .hljs-keyword,.hljs-template-tag,.hljs-template-variable,.hljs-type,.hljs-variable.language_{color:#ff7b72}.hljs-title,.hljs-title.class_,.hljs-title.class_.inherited__,.hljs-title.function_{color:#d2a8ff}.hljs-attr,.hljs-attribute,.hljs-literal,.hljs-meta,.hljs-number,.hljs-operator,.hljs-selector-attr,.hljs-selector-class,.hljs-selector-id,.hljs-variable{color:#79c0ff}.hljs-string{color:#a5d6ff}.hljs-regexp{color:#a5d6ff}.hljs-built_in,.hljs-code,.hljs-comment,.hljs-formula,.hljs-name,.hljs-quote,.hljs-selector-tag,.hljs-storage.type,.hljs-subst{color:#8b949e}.hljs-section,.hljs-strong{color:#c9d1d9;font-weight:700}.hljs-emphasis{color:#c9d1d9;font-style:italic}.hljs-bullet,.hljs-link,.hljs-meta .hljs-string,.hljs-symbol,.hljs-template-variable .hljs-string{color:#a5d6ff}.hljs-deletion{color:#ffdcd7;background-color:#67060c}.hljs-addition{color:#aff5b4;background-color:#033a16}.hljs-link_label{color:#a5d6ff;text-decoration:underline}.hljs-selector-pseudo{color:#79c0ff}
